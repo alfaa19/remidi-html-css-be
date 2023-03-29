@@ -1,0 +1,221 @@
+/* CSS for Portofolio CV */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Introduction Section Styles */
+  #intro {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .intro-text {
+    max-width: 400px;
+    text-align: justify;
+  }
+  
+  .intro-text h2 {
+    margin-top: 0;
+  }
+  
+  .intro-text p {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .intro-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+  
+  /* Skills Section Styles */
+  #skills {
+    padding: 60px 0;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .skill h3 {
+    margin-top: 0;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+  
+  .progress-bar:before {
+    content: "";
+    display: block;
+    height: 100%;
+    background-color: #333;
+    border-radius: 8px;
+  }
+  
+  /* Education Section Styles */
+  #education {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+  }
+  
+  .education-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .education {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .education h3 {
+    margin-top: 0;
+  }
+  
+  .education p {
+    margin-bottom: 10px;
+  }
+  
+  /* Experience Section Styles */
+  #experience {
+    padding: 60px 0;
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .experience {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .experience h3 {
+    margin-top: 0;
+  }
+  
+  .experience p {
+    margin-bottom: 10px;
+  }
+
+  /* Form Styles */
+form {
+    margin: 60px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  form h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: #333;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  form textarea {
+    height: 120px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
